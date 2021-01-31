@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="Logic\Booking.cs" />
     <Compile Include="Logic\BookingContext.cs" />
+    <Compile Include="Logic\BookingState.cs" />
     <Compile Include="Logic\StaticFunctions.cs" />
     <Compile Include="UI\EntryPage.xaml.cs">
       <DependentUpon>EntryPage.xaml</DependentUpon>

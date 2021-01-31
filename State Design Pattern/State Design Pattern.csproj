@@ -55,9 +55,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Logic\PatronStados\States\BookedState.cs" />
     <Compile Include="Logic\Booking.cs" />
-    <Compile Include="Logic\BookingContext.cs" />
-    <Compile Include="Logic\BookingState.cs" />
+    <Compile Include="Logic\PatronStados\BookingContext.cs" />
+    <Compile Include="Logic\PatronStados\BookingState.cs" />
+    <Compile Include="Logic\PatronStados\States\CloseState.cs" />
+    <Compile Include="Logic\PatronStados\States\NewState.cs" />
+    <Compile Include="Logic\PatronStados\States\PendingState.cs" />
     <Compile Include="Logic\StaticFunctions.cs" />
     <Compile Include="UI\EntryPage.xaml.cs">
       <DependentUpon>EntryPage.xaml</DependentUpon>
